@@ -1,7 +1,7 @@
 # Twitch
 
 ```bash
-composer require goldendeveloper/twitch
+composer require goldendeveloper/twitch 
 ```
 
 ## Installation & Basic Usage
