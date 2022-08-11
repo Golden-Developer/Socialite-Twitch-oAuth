@@ -1,0 +1,32 @@
+{
+    "name": "goldendeveloper/twitch",
+    "description": "Twitch OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Collin Ilgner",
+            "email": "cohohohn04@gmail.de"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoldenDeveloper\\Twitch\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GoldenDeveloper\\Twitch\\TwitchServiceProvider"
+            ]
+        }
+    }
+}
